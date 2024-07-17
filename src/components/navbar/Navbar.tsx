@@ -5,7 +5,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 
 const Navbar = () => {
   return (
-    <div className='flex items-center justify-between w-screen h-[80px] nav-color lg:px-[80px] px-[16px]'>
+    <div className='fixed top-0 left-0 right-0 z-50 flex items-center justify-between w-screen h-[80px] nav-color lg:px-[80px] px-[16px]'>
        <div className='flex items-center gap-[8px]'>
         <div className='w-[24px] h-[34px] lg:w-[35.75px] lg:h-[50px] '>
 
